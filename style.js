@@ -11,7 +11,7 @@ const timer = () =>{
 }
 setInterval(timer, 1000);
 
-let song = new Audio("good.wav")
+let song = new Audio("case.mp3")
 const alarm =() => {
     let myHour = setHour.value
     let myMinute = setMinute.value
@@ -23,11 +23,12 @@ const alarm =() => {
 }
 
 const stopAlarm = () =>{
-    let stp = prompt("DO YOU HAVE ANY ACTIVITY FOR THE DAY?")
-    if(stp = "Yes"){
+    alert("Solve this equation")
+    let stp = prompt("")
+    if(stp == "Yes"){
         alert("Wake up")
     }
-    else if(stp = "No"){
+    else if(stp !== "Yes"){
        alert("Rest")
     }
 }
