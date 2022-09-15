@@ -1,0 +1,12 @@
+body{
+    background-image: url(abstract-green-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#show{
+    margin-top: 50px;
+}
+.container{
+    height: 500px;
+    padding-top: 70px;
+}
