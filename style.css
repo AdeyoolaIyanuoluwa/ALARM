@@ -14,5 +14,6 @@
     height: 400px;
     padding-top: 70px;
     margin-top: 150px;
-    border-radius: 10%;
+    border-radius: 8%;
+    box-shadow: 2px 2px 13px 4px rgb(180, 164, 164);
 }
