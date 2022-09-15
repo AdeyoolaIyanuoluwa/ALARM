@@ -24,12 +24,13 @@ const alarm =() => {
 
 const stopAlarm = () =>{
     alert("Solve this equation")
-    let stp = prompt("")
-    if(stp == "Yes"){
+    let stp = prompt("(50*50) + 100")
+    if(stp == "2600"){
         alert("Wake up")
+        location.reload()
     }
-    else if(stp !== "Yes"){
-       alert("Rest")
+    else if(stp !== "2600"){
+       alert("Incorrect")
     }
 }
 
