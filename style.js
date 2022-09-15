@@ -11,7 +11,7 @@ const timer = () =>{
 }
 setInterval(timer, 1000);
 
-let song = new Audio("case.mp3")
+let song = new Audio("alarm.mp3")
 const alarm =() => {
     let myHour = setHour.value
     let myMinute = setMinute.value
