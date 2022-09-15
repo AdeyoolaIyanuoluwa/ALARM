@@ -5,7 +5,7 @@ const timer = () =>{
     const minutes = (date.getMinutes())
     const seconds = (date.getSeconds())
     show.innerHTML= `${hour} : ${minutes} : ${seconds} `
-    show.style.fontSize = "50px"
+    show.style.fontSize = "30px"
     show.style.color = "black"
     show.style.fontWeight = "bold"
 }
