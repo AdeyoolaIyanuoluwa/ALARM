@@ -33,15 +33,3 @@ const stopAlarm = () =>{
        alert("Incorrect")
     }
 }
-
-
-
-// function timer(){
-//     const date =new Date();
-
-//     const hour =(date.getHours());
-//     const minutes =(date.getMinutes());
-//     const seconds =(date.getSeconds())
-//     show.innerHTML= `${hour} : ${minutes} : ${seconds}`
-//     setInterval(timer, 1000);
-// }
