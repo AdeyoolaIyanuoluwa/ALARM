@@ -10,4 +10,8 @@
     margin-top: 150px;
     border-radius: 8%;
     box-shadow: 2px 2px 13px 4px rgb(180, 164, 164);
+    box-shadow: 2px 2px 13px 4px rgb(216, 211, 211) inset;
+}
+@media screen and (min-width: 200px) and (max-width:868px){
+    
 }
