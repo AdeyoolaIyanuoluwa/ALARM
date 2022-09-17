@@ -3,6 +3,9 @@
     height: 200px;
     border-radius: 100%;
     padding-top: 50px;
+    font-size: 32px;
+    color: black;
+    font-weight: bold;
 }
 .container{
     height: 400px;
@@ -14,10 +17,11 @@
 }
 @media screen and (min-width: 200px) and (max-width:868px){
     #show{
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
         border-radius: 100%;
         padding-top: 50px;
+        font-size: 5px;
     }
     .container{
         height: 400px;

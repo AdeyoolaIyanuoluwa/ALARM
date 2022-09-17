@@ -5,9 +5,9 @@ const timer = () =>{
     const minutes = (date.getMinutes())
     const seconds = (date.getSeconds())
     show.innerHTML= `${hour} : ${minutes} : ${seconds} <img src="clock-removebg-preview.png" height="70" alt="">`
-    show.style.fontSize = "32px"
-    show.style.color = "black"
-    show.style.fontWeight = "bold"
+    // show.style.fontSize = "32px"
+    // show.style.color = "black"
+    // show.style.fontWeight = "bold"
 }
 setInterval(timer, 1000);
 
