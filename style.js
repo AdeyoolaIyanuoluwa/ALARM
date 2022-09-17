@@ -4,10 +4,7 @@ const timer = () =>{
     const hour = (date.getHours())
     const minutes = (date.getMinutes())
     const seconds = (date.getSeconds())
-    show.innerHTML= `${hour} : ${minutes} : ${seconds} <img src="clock-removebg-preview.png" height="70" alt="">`
-    // show.style.fontSize = "32px"
-    // show.style.color = "black"
-    // show.style.fontWeight = "bold"
+    show.innerHTML= `${hour} : ${minutes} : ${seconds} <img class="img" src="clock-removebg-preview.png" height="70" alt="">`
 }
 setInterval(timer, 1000);
 
