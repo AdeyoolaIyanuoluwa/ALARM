@@ -1,3 +1,6 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
 #show{
     width: 200px;
     height: 200px;
@@ -34,14 +37,14 @@
     #show{
         width: 100px;
         height: 100px;  
-        padding-top: 23px;
-        font-size: 20px;
+        padding-top: 26px;
+        font-size: 14px;
     }
     .container{
         height: 400px;
         margin-top: 150px;
     }
     .img{
-        height: 50px;
+        height: 30px;
     }
 }
