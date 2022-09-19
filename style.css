@@ -22,12 +22,15 @@ body{
     box-shadow: 2px 2px 13px 4px rgb(180, 164, 164);
     box-shadow: 2px 2px 13px 4px rgb(216, 211, 211) inset;
 }
-@media screen and (min-width: 1024px){
+
+
+@media screen and (max-width: 1024px){
     #show{
         width: 200px;
         height: 200px;  
         padding-top: 23px;
-        font-size: 24px;
+        font-size: 35px;
+        
     }
     .container{
         height: 400px;
@@ -41,8 +44,8 @@ body{
     #show{
         width: 100px;
         height: 100px;  
-        padding-top: 40px;
-        font-size: 14px;
+        padding-top: 30px;
+        font-size: 16px;
     }
     .container{
         height: 300px;
@@ -51,7 +54,7 @@ body{
     .img{
         height: 30px;
     }
-    input{
-        width: 10%;
-    }
+    /* .d-flex{
+        margin-left: 20px;
+    } */
 }

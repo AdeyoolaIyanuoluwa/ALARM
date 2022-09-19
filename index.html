@@ -12,18 +12,36 @@
     
     <center>
         <div class="container col-lg-5 bg-light row ">
-                <div class="shadow pt-5">
-                    <h1 class="mt-3 ms-4 fw-bold">ALARM <img class="mb-3" src="stopw-removebg-preview.png" height="40" alt=""></h1>
+                <div class="shadow pt-lg-5">
+                    <h1 class="mt-3 ms-4 fw-bold ">ALARM <img class="mb-3" src="stopw-removebg-preview.png" height="40" alt=""></h1>
                 </div>
-                <div id="show" class="col-5 shadow ms-5 mt-3"></div>
 
-                <div class="col-5  ms-5 mt-3">
-                    <input type="text" class="form-control" placeholder="Hour" id="setHour">
+                <div class="col-5 m-auto">
+                    <div id="show" class="shadow mt-3 "></div>
+                </div>
+
+                <div class="col-5 ms-5 mt-5 d-none d-sm-block">
+                    <div>
+                        <input type="text" class="form-control" placeholder="Hours" id="setHour">
                             <span class="fw-bold fs-4">:</span>
-                    <input type="text" class="form-control" placeholder="Minute" id="setMinute">
-                    <div class="mt-5">
+                    <input type="text" class="form-control" placeholder="Minutes" id="setMinute">
+                    </div>
+                    <div class="mt-3">
                         <button class="btn btn-success" onclick="alarm()">Set Alarm</button>
                     <button class="btn btn-danger" onclick="stopAlarm()">STOP</button>
+                    </div>
+               </div>
+
+                <div class="d-block d-sm-none">
+                    <div class="d-flex">
+                        <input type="text" class="form-control w-50" placeholder="Hours" id="setHou">
+                            <span class="fw-bold fs-lg-4">:</span>
+
+                    <input type="text" class="form-control w-50" placeholder="Minutes" id="setMinut">
+                    </div>
+                    <div class="mt-1">
+                        <button class="btn btn-success" onclick="alar()">Set Alarm</button>
+                    <button class="btn btn-danger" onclick="stopAlar()">STOP</button>
                     </div>
                </div>
            

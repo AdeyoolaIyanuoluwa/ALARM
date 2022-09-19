@@ -30,3 +30,27 @@ const stopAlarm = () =>{
        alert("Incorrect")
     }
 }
+
+// small screen
+let song1 = new Audio("alarm.mp3")
+const alar =() => {
+    let myHour = setHou.value
+    let myMinute = setMinut.value
+    d = new Date()
+    if(myHour == d.getHours() && myMinute == d.getMinutes()){
+            song1.play()
+    }
+    setTimeout(alarm,1000)
+}
+
+const stopAlar = () =>{
+    alert("Solve this equation")
+    let stp = prompt("(50*50) + 100")
+    if(stp == "2600"){
+        alert("Wake up")
+        location.reload()
+    }
+    else if(stp !== "2600"){
+       alert("Incorrect")
+    }
+}
